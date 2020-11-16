@@ -1,0 +1,19 @@
+<%- include('./partials/header.ejs') %>
+    <main>
+        <section>
+
+            <!--
+            arboles.forEach((arbol)=>{
+                console.log(arbol.title)
+                console.log(arbol.snippet)
+            })
+            -->
+
+            <% coches.forEach((coche)=>{ %>
+            <h3><%= coche.marca %> </h3>
+            <p><%= coche.modelo %></p>
+            <%  }) %>
+
+        </section>
+    </main>
+<%- include('./partials/footer.ejs') %>
