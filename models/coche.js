@@ -13,8 +13,6 @@ const Coche = mongoose.model('Coche', {
         trim: true,
         lowercase: true
     },
-  
-
 })
 
 module.exports = Coche
