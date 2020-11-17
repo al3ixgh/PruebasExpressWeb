@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
   const autos = [
     { marca: 'Audi', modelo: 'A3' },
     { marca: 'BMW', modelo: 'X6' },
-    { marca: 'Mercedes', modelo: 'A380' },
+    { marca: 'Mercedes', modelo: 'A380' }
   ];
   res.render('index', { coches: autos, titulo: 'Índice' });
 });
